@@ -36,103 +36,103 @@ void loop()
   /********** media buttons **********/
   
   xbmc("Player.PlayPause","playerid\":1");
-  delay(30000);
+  delay(2000);
   xbmc("Player.PlayStop","playerid\":1");
-  delay(30000);
+  delay(2000);
   xbmc("Player.Seek","playerid\":1,\"value\":\"smallbackward\"");
-  delay(30000);
+  delay(2000);
   xbmc("Player.Seek","playerid\":1,\"value\":\"smallforward\"");
-  delay(30000);
+  delay(2000);
   xbmc("Player.Seek","playerid\":1,\"value\":\"bigbackward\"");
-  delay(30000);
+  delay(2000);
   xbmc("Player.Seek","playerid\":1,\"value\":\"bigforward\"");
-  delay(30000);
+  delay(2000);
   xbmc("Player.SetSpeed","playerid\":1,\"speed\":\"increment\"");
-  delay(30000);
+  delay(2000);
   xbmc("Player.SetSpeed","playerid\":1,\"speed\":\"decrement\"");
-  delay(30000);
+  delay(2000);
   
   /********** navigate **********/
 
   xbmc("Input.ExecuteAction","action\":\"up\"");
-  delay(30000);
+  delay(2000);
   xbmc("Input.ExecuteAction","action\":\"down\"");
-  delay(30000);
+  delay(2000);
   xbmc("Input.ExecuteAction","action\":\"left\"");
-  delay(30000);
+  delay(2000);
   xbmc("Input.ExecuteAction","action\":\"right\"");
-  delay(30000);
+  delay(2000);
   xbmc("Input.ExecuteAction","action\":\"select\"");
-  delay(30000);
+  delay(2000);
   xbmc("Input.ExecuteAction","action\":\"back\"");
-  delay(30000);
+  delay(2000);
 
   /********** fullscreen **********/
 
   xbmc("GUI.SetFullscreen","fullscreen\":\"toggle\"");
-  delay(30000);
+  delay(2000);
 
   /********** subtitles **********/
 
   xbmc("Player.SetSubtitle","playerid\":1,\"subtitle\":\"on\"");
-  delay(30000);
+  delay(2000);
   xbmc("Player.SetSubtitle","playerid\":1,\"subtitle\":\"off\"");
-  delay(30000);
+  delay(2000);
   xbmc("Player.SetSubtitle","playerid\":1,\"subtitle\":\"next\"");
-  delay(30000);
+  delay(2000);
   xbmc("Addons.ExecuteAddon","addonid\":\"script.xbmc.subtitles\"");
-  delay(30000);
+  delay(2000);
   
   /********** language **********/
 
   xbmc("Player.SetAudioStream","playerid\":1,\"stream\":\"next\"");
-  delay(30000);
+  delay(2000);
 
   /********** start addons **********/
 
   xbmc("Addons.ExecuteAddon","addonid\":\"script.tv.show.next.aired\"");
-  delay(30000);
+  delay(2000);
   xbmc("Addons.ExecuteAddon","addonid\":\"plugin.video.itunes_trailers\"");
-  delay(30000);
+  delay(2000);
   xbmc("Addons.ExecuteAddon","addonid\":\"plugin.video.youtube\"");
-  delay(30000);
+  delay(2000);
   xbmc("Addons.ExecuteAddon","addonid\":\"net.rieter.xot\"");
-  delay(30000);
+  delay(2000);
   xbmc("Addons.ExecuteAddon","addonid\":\"script.audio.spotimc\"");
-  delay(30000);
+  delay(2000);
 
   /********** navigate menu's **********/
 
   xbmc("GUI.ActivateWindow","window\":\"home\"");
-  delay(30000);
+  delay(2000);
   xbmc("GUI.ActivateWindow","window\":\"favourites\"");
-  delay(30000);
+  delay(2000);
   xbmc("GUI.ActivateWindow","window\":\"weather\"");
-  delay(30000);
+  delay(2000);
   xbmc("GUI.ActivateWindow","window\":\"music\"");
-  delay(30000);
+  delay(2000);
   xbmc("GUI.ActivateWindow","window\":\"video\",\"parameters\":[\"MovieTitles\"]");
-  delay(30000);
+  delay(2000);
   xbmc("GUI.ActivateWindow","window\":\"video\",\"parameters\":[\"RecentlyAddedMovies\"]");
-  delay(30000);
+  delay(2000);
   xbmc("GUI.ActivateWindow","window\":\"video\",\"parameters\":[\"TVShowTitles\"]");
-  delay(30000);
+  delay(2000);
   xbmc("GUI.ActivateWindow","window\":\"video\",\"parameters\":[\"RecentlyAddedEpisodes\"]");
-  delay(30000);
+  delay(2000);
 
   /********** play music **********/
 
   xbmc("Player.Open","item\":{\"partymode\":\"music\"}");
-  delay(30000);
+  delay(2000);
 
   /********** select tv channel **********/
 
   xbmc("Player.Open","item\":{\"channelid\":41");
-  delay(30000);
+  delay(2000);
   xbmc("Player.Open","item\":{\"channelid\":42");
-  delay(30000);
+  delay(2000);
   xbmc("Player.Open","item\":{\"channelid\":43");
-  delay(30000);
+  delay(2000);
 }
 
 /*********** Send XBMC JSON **********/
