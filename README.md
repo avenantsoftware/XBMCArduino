@@ -1,4 +1,4 @@
 XBMCArduino
 ===========
 
-Control XBMC from an Arduino trough JSON
+Control XBMC from an Arduino through JSON
