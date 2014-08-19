@@ -1,8 +1,8 @@
 /*
 
-   XBMC Arduino sketch by M.J. Meijer 2014
+   XBMC/Kodi Arduino sketch by M.J. Meijer 2014
 
-   control XBMC with an arduino trough JSON
+   control XBMC with an arduino through JSON
 
    disable password and username in xbmc
 
