@@ -100,6 +100,13 @@ void loop()
   delay(2000);
   xbmc("Addons.ExecuteAddon","addonid\":\"script.audio.spotimc\"");
   delay(2000);
+  
+  /********** enable/disable addons **********/
+  
+  xbmc("Addons.SetAddonEnabled","addonid\":\"script.xbmc.boblight\",\"enabled\":true");
+  delay(5000)
+  xbmc("Addons.SetAddonEnabled","addonid\":\"script.xbmc.boblight\",\"enabled\":false");
+  delay(5000)
 
   /********** navigate menu's **********/
 
