@@ -37,7 +37,7 @@ void loop()
   
   xbmc("Player.PlayPause","playerid\":1");
   delay(2000);
-  xbmc("Player.PlayStop","playerid\":1");
+  xbmc("Player.Stop","playerid\":1");
   delay(2000);
   xbmc("Player.Seek","playerid\":1,\"value\":\"smallbackward\"");
   delay(2000);
